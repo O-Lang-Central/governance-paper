@@ -1,6 +1,5 @@
 # O-Lang: Runtime Governance for Safe AI Execution in Regulated Domains
 
-[![PDF](https://img.shields.io/badge/PDF-Download-blue?logo=adobe)](governance-paper.pdf)
 
 **Author**: Olalekan Ogundipe  
 **Affiliation**: O-Lang Central  
@@ -103,15 +102,12 @@ But the hospital has no available beds.
 
 ---
 
-## 3.4 Regulatory Alignment
-
-This satisfies:
-
-- **HIPAA §164.312(b):** Audit controls for system activity
-- **GDPR Article 22:** Right to explanation for automated decisions
-- **Nigerian NDIC Guidelines:** Truthful disclosure in financial/health services
-
-> O-Lang turns compliance from a retrofit into a runtime invariant.
+### 3.4 Regulatory Alignment
+O-Lang’s design satisfies core requirements across global regulatory regimes:
+- **GDPR Article 22**: Right to explanation for automated decisions  
+- **HIPAA §164.312(b)**: Audit controls for system activity  
+- **Emerging Global South AI frameworks**: Built with input from Nigerian healthcare and fintech pilots, where infrastructure fragility demands truth over “graceful degradation”
+O-Lang turns compliance from a retrofit into a runtime invariant — adaptable to any jurisdiction that requires **auditability, non-fabrication, and policy enforcement**.
 
 ---
 
