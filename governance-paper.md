@@ -1,5 +1,7 @@
 # O-Lang: Runtime Governance for Safe AI Execution in Regulated Domains
 
+[![PDF](https://img.shields.io/badge/PDF-Download-blue?logo=adobe)](governance-paper.pdf)
+
 **Author**: Olalekan Ogundipe  
 **Affiliation**: O-Lang Central  
 **Date**: February 2026  
@@ -91,11 +93,11 @@ But the hospital has no available beds.
 
 ## 3.3 O-Lang Governance
 
-| Step | Action | Kernel Enforcement | Audit Trace |
-|------|--------|--------------------|-------------|
-| 1 | `AllocateICU("P789")` | Checks Allow resolvers | `{"step":1, "policy":"allowed"}` |
-| 2 | Resolver returns `{"approved":false}` | Validates output structure | `{"step":2, "output":{"approved":false}}` |
-| 3 | Notify "ICU approved" | Detects `${allocation.approved} == false` → blocks | `{"step":3, "error":"UNRESOLVED_PLACEHOLDERS"}` |
+| Step | Action                                      | Kernel Enforcement                                              | Audit Trace                                                      |
+|------|---------------------------------------------|------------------------------------------------------------------|------------------------------------------------------------------|
+| 1    | `AllocateICU("P789")`                       | Checks `Allow resolvers`                                         | `{"step":1, "policy":"allowed"}`                                |
+| 2    | Resolver returns `{"approved":false}`        | Validates output structure                                        | `{"step":2, "output":{"approved":false}}`                       |
+| 3    | `Notify "ICU approved"`                     | Detects `${allocation.approved} == false` → blocks               | `{"step":3, "error":"UNRESOLVED_PLACEHOLDERS"}`                 |
 
 **Result:** Non-compliant action blocked. Full audit trail generated. No silent failure.
 
