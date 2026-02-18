@@ -1,5 +1,5 @@
 # O-Lang: Runtime Governance for Safe AI Execution in Regulated Domains
-
+[![Download PDF](https://img.shields.io/badge/📄_Download_PDF-blue?logo=adobe)](https://github.com/O-Lang-Central/governance-paper/raw/main/governance-paper.pdf)
 
 **Author**: Olalekan Ogundipe  
 **Affiliation**: O-Lang Central  
